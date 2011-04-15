@@ -1,0 +1,6 @@
+Erik Alapää 2011-04-15
+
+This version of libcli is intended for users who want a good, small cli library
+that fits in single-threaded, non-blocking scenarios with libev. Should in
+principle work equally well with select, pselect, poll etc., but has not yet
+been tested with those backends, only libev.
